@@ -1,0 +1,47 @@
+.skillsBlock {
+    min-height: 100vh;
+    background-color: #ba99d9;
+    display: flex;
+}
+
+.container {
+    border: 2px solid brown;
+    min-height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.header {
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+
+.title {
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.line {
+    background: #004496;
+    width: 55px;
+    height: 3px;
+    margin: 30px auto;
+}
+
+.skillsRow {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+
+
+}
+

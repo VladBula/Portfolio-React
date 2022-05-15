@@ -1,0 +1,44 @@
+.hireMeBlock{
+    background-color: #75acef;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 80%;
+    border: 2px brown solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.text{
+    margin: 30px 0;
+    font-weight: 300;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 30px;
+    text-align: center;
+}
+
+.hireButton a {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.hireButton a:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+}
