@@ -1,6 +1,7 @@
 .footerBlock {
     display: flex;
     background-color: #1f1f20;
+    color: #ebebf1;
 }
 
 .container {

@@ -1,0 +1,76 @@
+.projectBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 500px;
+    .viewButtonContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        min-height: 260px;
+        position: relative;
+        &::before{
+            position: absolute;
+            content: '';
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: black;
+            opacity: 0.6;
+        }
+        &:hover::before{
+            opacity: 0;
+        }
+        &:hover > a{
+            background-color: #FFFFFF;
+            color: black;
+            border: 0.1em solid #000000
+        }
+        & a {
+            display: inline-block;
+            padding: 0.35em 1.2em;
+            border: 0.1em solid #FFFFFF;
+            margin: 0 0.3em 0.3em 0;
+            border-radius: 0.12em;
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            color: #FFFFFF;
+            text-align: center;
+            transition: all 0.2s;
+            position: absolute;
+            z-index: 1;
+        }
+        & a:hover {
+            color: #FFFFFF;
+            background-color: #272728;
+            position: absolute;
+            z-index: 1;
+        }
+    }
+    .descriptionContainer {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        .projectDescription {
+            margin-top: 15px;
+        }
+    }
+}
+
+
+
+
+
+
+
+

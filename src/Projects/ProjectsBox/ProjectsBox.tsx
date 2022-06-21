@@ -1,5 +1,5 @@
 import React, {DetailedHTMLProps, HTMLAttributes} from 'react';
-import s from "./ProjectsBox.module.css";
+import s from "./ProjectsBox.module.scss";
 
 type PropsType = {
     id:string,
