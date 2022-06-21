@@ -37,19 +37,10 @@
     opacity: 0;
 }
 .viewButtonContainer:hover > a{
-    background-color: black;
+    background-color: #FFFFFF;
+    color: black;
+    border: 0.1em solid #000000
 }
-
-
-/*.viewButtonContainer::before:hover{*/
-/*    position: absolute;*/
-/*    content: '';*/
-/*    top: 0;*/
-/*    bottom: 0;*/
-/*    left: 0;*/
-/*    right: 0;*/
-
-/*}*/
 
 .viewButtonContainer a {
     display: inline-block;
@@ -68,8 +59,8 @@
 }
 
 .viewButtonContainer a:hover {
-    color: #000000;
-    background-color: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #272728;
     position: absolute;
     z-index: 1;
 }
