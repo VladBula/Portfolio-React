@@ -1,10 +1,10 @@
 .mainBlock {
     height: 100vh;
-    background-color: aquamarine;
+    background-color: #272728;
+    color: #ebebf1;
 }
 
 .container {
-    border: 2px solid brown;
     min-height: 100%;
     width: 80%;
     margin: 0 auto;
@@ -15,7 +15,7 @@
 
 }
 
-@media (max-width: 815px) {
+@media screen and (max-width: 815px) {
     .container {
         justify-content: center;
     }
@@ -23,7 +23,6 @@
 
 .mainGreeting {
     width: 350px;
-    background-color: aqua;
 }
 
 .mainPhoto {

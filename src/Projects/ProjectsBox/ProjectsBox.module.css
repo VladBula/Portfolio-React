@@ -2,21 +2,54 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 10px;
-    min-width: 270px;
+    width: 500px;
+
 }
+
+
 
 .viewButtonContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../../Common/images/space.jpeg');
     background-position: center;
     background-size: cover;
     width: 100%;
-    min-height: 200px;
+    min-height: 260px;
+    position: relative;
+
 }
+
+.viewButtonContainer::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.viewButtonContainer:hover::before{
+    opacity: 0;
+}
+.viewButtonContainer:hover > a{
+    background-color: black;
+}
+
+
+/*.viewButtonContainer::before:hover{*/
+/*    position: absolute;*/
+/*    content: '';*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+
+/*}*/
 
 .viewButtonContainer a {
     display: inline-block;
@@ -30,23 +63,27 @@
     color: #FFFFFF;
     text-align: center;
     transition: all 0.2s;
+    position: absolute;
+    z-index: 1;
 }
 
 .viewButtonContainer a:hover {
     color: #000000;
     background-color: #FFFFFF;
+    position: absolute;
+    z-index: 1;
 }
 
 .descriptionContainer {
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background-color: #eeabab;
+    align-items: flex-start;
     width: 100%;
 }
 
 .projectDescription {
-    text-align: center;
+    margin-top: 15px;
 
 }

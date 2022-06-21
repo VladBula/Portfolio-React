@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    /*color: #c5c5cc;*/
+    font-family: 'Poppins', sans-serif;
 }
 .App {
 
@@ -13,7 +15,6 @@ h2 {
 
 h1, h2, h3, h4, h5, h6 {
     font: 700 40px/1.2 'Josefin Sans', sans-serif;
-    letter-spacing: 5px;
     margin: 0;
 }
 

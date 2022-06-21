@@ -1,11 +1,10 @@
 .contactBlock {
     display: flex;
-    background-color: #f395a3;
+    background-color: #272728;
 }
 
 .container {
     padding: 35px 0;
-    border: 2px solid brown;
     min-height: 100%;
     width: 80%;
     margin: 0 auto;
@@ -21,14 +20,14 @@
     display: inline-block;
     padding: 0.35em 1.2em;
     border: 0.1em solid #FFFFFF;
-    margin: 0 0.3em 0.3em 0;
-    border-radius: 0.12em;
+    margin: 15px;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #FFFFFF;
     text-align: center;
     transition: all 0.2s;
+    border-radius: 10px;
 }
 
 .contactButton a:hover {
@@ -52,23 +51,23 @@
 }
 
 .form input {
-    background: #ebebf1;
+    background: #c5c5cc;
     border: 1px solid #4a4a4a;
     font-size: 12px;
     margin: 5px 0;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 100%;
     height: calc(1.5em + 0.75rem + 2px);
 }
 
 .form textarea {
     margin: 5px 0;
-    background: #ebebf1;
+    background: #c5c5cc;
     border: 1px solid #4a4a4a;
     font-size: 12px;
     padding: 0 15px;
     min-height: 70px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .header {
@@ -85,7 +84,7 @@
 }
 
 .line {
-    background: #004496;
+    background: #980033;
     width: 55px;
     height: 3px;
     margin: 30px auto;

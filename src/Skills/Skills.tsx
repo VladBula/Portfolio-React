@@ -3,6 +3,7 @@ import s from './Skills.module.css'
 import {SkillsType} from "../App";
 import SkillBox from "./SkillBox/SkillBox";
 
+
 type PropsType = {
     skills: Array<SkillsType>
 }
@@ -17,7 +18,7 @@ const Skills = (props: PropsType) => {
                 </div>
                 <div className={s.skillsRow}>
                     {props.skills.map((s) => {
-                        return <SkillBox id={s.id} title={s.title} text={s.text}/>
+                        return <SkillBox id={s.id} title={s.title} text={s.text} iconName={s.iconName} iconSize={s.iconSize}/>
                     })}
 
 

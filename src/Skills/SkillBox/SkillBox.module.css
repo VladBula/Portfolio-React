@@ -13,9 +13,10 @@
 .skillIcon {
     width: 80px;
     height: 80px;
-    background-color: #004496;
+    background-color: inherit;
     margin: 10px auto;
-
+    display: flex;
+    justify-content: center;
 }
 
 .skillText {

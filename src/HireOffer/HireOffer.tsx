@@ -6,7 +6,7 @@ const HireOffer = () => {
         <div className={s.hireMeBlock}>
             <div className={s.container}>
 
-                <span className={s.text}>Looking into remote work options</span>
+                <h2 className={s.text}>Looking into remote work options</h2>
                 <div className={s.hireButton}>
                     <a href="#">Hire me</a>
                 </div>

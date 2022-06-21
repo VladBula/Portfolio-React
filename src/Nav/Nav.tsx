@@ -3,12 +3,26 @@ import s from './Nav.module.css'
 
 const Nav = () => {
     return (
-        <div className={s.nav}>
-            <a href="#">Main</a>
-            <a href="#">Skills</a>
-            <a href="#">Projects</a>
-            <a href="#">Contacts</a>
-        </div>
+        <nav className={s.nav}>
+            <ul className={s.menuList}>
+                <li className={s.menuItem}>
+                    <a className={s.menuLink} href="#">Main</a>
+                </li>
+                <li>
+                    <a href="#">Skills</a>
+                </li>
+                <li>
+                    <a href="#">Projects</a>
+                </li>
+                <li>
+                    <a href="#">Contacts</a>
+                </li>
+            </ul>
+
+
+
+
+        </nav>
     );
 };
 

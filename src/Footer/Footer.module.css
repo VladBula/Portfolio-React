@@ -1,12 +1,10 @@
 .footerBlock {
     display: flex;
-    background-color: #d9cf92;
-    height: 800px;
+    background-color: #1f1f20;
 }
 
 .container {
     padding: 35px 0;
-    border: 2px solid brown;
     min-height: 100%;
     width: 80%;
     margin: 0 auto;

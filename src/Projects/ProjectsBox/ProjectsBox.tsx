@@ -1,16 +1,17 @@
-import React from 'react';
+import React, {DetailedHTMLProps, HTMLAttributes} from 'react';
 import s from "./ProjectsBox.module.css";
 
 type PropsType = {
     id:string,
     name:string,
     description:string
+    style:{ backgroundImage: string }
 }
 
 const ProjectsBox = (props:PropsType) => {
     return (
         <div className={s.projectBox}>
-            <div className={s.viewButtonContainer}>
+            <div className={s.viewButtonContainer} style={props.style}>
 
                     <a href="#" >View</a>
 
