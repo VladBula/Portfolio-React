@@ -25,8 +25,6 @@ const SkillBox = (props:PropsType) => {
                 <h3 className={s.skillTitle}>{props.title}</h3>
                 <span className={s.skillText}>{props.text}</span>
             </div>
-
-
     );
 };
 
