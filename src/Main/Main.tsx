@@ -4,85 +4,65 @@ import Particles from "react-tsparticles";
 import {ISourceOptions} from 'tsparticles-engine';
 
 const particlesOptions: ISourceOptions = {
-    background: {
-        color: {
-            value: "#0d47a1",
-        },
-    },
-    fpsLimit: 120,
+    fpsLimit: 60,
     interactivity: {
         events: {
-            onClick: {
-                enable: true,
-                mode: "push",
-            },
+            onClick: { enable: true, mode: "push" },
             onHover: {
                 enable: true,
                 mode: "repulse",
+                parallax: { enable: false, force: 60, smooth: 10 }
             },
-            resize: true,
+            resize: true
         },
         modes: {
-            bubble: {
-                distance: 400,
-                duration: 2,
-                opacity: 0.8,
-                size: 40,
-            },
-            push: {
-                quantity: 4,
-            },
-            repulse: {
-                distance: 200,
-                duration: 0.4,
-            },
-        },
+            push: { quantity: 4 },
+            repulse: { distance: 200, duration: 0.4 }
+        }
     },
     particles: {
-        color: {
-            value: "#ffffff",
-        },
-        links: {
-            color: "#ffffff",
-            distance: 150,
-            enable: true,
-            opacity: 0.5,
-            width: 1,
-        },
-        collisions: {
-            enable: true,
-        },
+        color: { value: "#ffffff" },
         move: {
             direction: "none",
             enable: true,
-            outMode: "bounce",
+            outModes: "out",
             random: false,
-            speed: 6,
-            straight: false,
+            speed: 2,
+            straight: false
         },
         number: {
             density: {
                 enable: true,
-                area: 800,
+                area: 800
             },
-            value: 80,
+            value: 80
         },
         opacity: {
-            value: 0.5,
+            animation: {
+                enable: true,
+                speed: 0.05,
+                sync: true,
+                startValue: "max",
+                count: 1,
+                destroy: "min"
+            },
+            value: {
+                min: 0,
+                max: 0.5
+            }
         },
         shape: {
-            type: "circle",
+            type: "circle"
         },
         size: {
-            random: true,
-            value: 5,
-        },
-    },
-    detectRetina: true,
+            value: { min: 1, max: 5 }
+        }
+    }
 }
 
 
-const Main = () => {
+
+        const Main = () => {
     return (
         <div className={s.mainBlock}>
             <Particles className={s.particles} options={particlesOptions}/>
