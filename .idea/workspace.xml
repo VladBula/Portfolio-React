@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16f29463-60a6-4899-b1fc-7af5424b1172" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Skills/SkillBox/SkillBox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/SkillBox/SkillBox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,14 +24,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="ts.external.directory.path" value="D:\Vlad\IT\portfolio-react\node_modules\typescript\lib" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/Vlad/Documents/IT/Portfolio-React",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "/Users/Vlad/Documents/IT/Portfolio-React/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,6 +44,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656681768721</updated>
       <workItem from="1656681770210" duration="1181000" />
+      <workItem from="1658332223149" duration="1759000" />
     </task>
     <servers />
   </component>
