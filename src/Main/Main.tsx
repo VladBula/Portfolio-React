@@ -22,7 +22,7 @@ const particlesOptions: ISourceOptions = {
         }
     },
     particles: {
-        color: {value: "#ffffff"},
+        color: {value: "#980033"},
         move: {
             direction: "none",
             enable: true,
@@ -81,14 +81,14 @@ const Main = () => {
     return (
         <div className={s.mainBlock}>
             <Particles
-                id="tsparticles"
+                className={s.tsparticles}
                 init={particlesInit}
                 loaded={particlesLoaded as any}
                 options={{
                     fullScreen: false,
                     background: {
                         color: {
-                            value: "#0d47a1"
+                            value: "#272728"
                         }
                     },
                     fpsLimit: 120,
@@ -119,7 +119,7 @@ const Main = () => {
                             value: "#ffffff"
                         },
                         links: {
-                            color: "#ffffff",
+                            color: "#da6262",
                             distance: 150,
                             enable: true,
                             opacity: 0.5,
@@ -135,7 +135,7 @@ const Main = () => {
                                 default: "bounce"
                             },
                             random: false,
-                            speed: 6,
+                            speed: 2,
                             straight: false
                         },
                         number: {
@@ -164,7 +164,9 @@ const Main = () => {
                     <h1>I am Vladislav Bulynko</h1>
                     <p>A FRONT-END DEVELOPER</p>
                 </div>
-                <div className={s.mainPhoto}></div>
+                <div className={s.mainPhoto}>
+                    <div className={s.image}></div>
+                </div>
             </div>
 
         </div>

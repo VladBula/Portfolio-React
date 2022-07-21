@@ -10,6 +10,7 @@
     width: 80%;
     margin: 0 auto;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
@@ -29,7 +30,41 @@
 }
 
 .mainPhoto {
-    width: 300px;
+    position: relative;
+    z-index: 1;
+}
+
+.tsparticles {
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+}
+
+.image {
     height: 400px;
-    background-color: aqua;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./../assets/images/photo.jpg");
+}
+
+@media screen and (max-width: 600px) {
+    .image {
+        height: 360px;
+        width: 260px;
+        transition: .5s;
+    }
+}
+
+.image:before {
+    content: "";
+    position: absolute;
+    height: 107%;
+    width: 103%;
+    border: 3px solid #980033;
+    left: 10px;
+    top: -14px;
+    z-index: -1;
 }
