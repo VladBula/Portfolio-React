@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16f29463-60a6-4899-b1fc-7af5424b1172" name="Changes" comment="particles test">
-      <change beforePath="$PROJECT_DIR$/src/Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +27,7 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/Vlad/Documents/IT/pr/Portfolio-React",
     "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "/Users/Vlad/Documents/IT/Portfolio-React/node_modules/typescript/lib",
+    "ts.external.directory.path": "/Users/Vlad/Documents/IT/pr/Portfolio-React/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -42,7 +43,8 @@
       <workItem from="1658332223149" duration="6024000" />
       <workItem from="1658343547172" duration="1068000" />
       <workItem from="1658399847916" duration="1898000" />
-      <workItem from="1658406351032" duration="412000" />
+      <workItem from="1658406351032" duration="1179000" />
+      <workItem from="1658423004679" duration="2528000" />
     </task>
     <task id="LOCAL-00001" summary="particles test">
       <created>1658336429258</created>
