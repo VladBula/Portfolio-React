@@ -1,8 +1,7 @@
 import React from 'react';
 import s from "./SkillBox.module.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {IconDefinition} from "@fortawesome/fontawesome-common-types";
 import {Icon} from "../Icon";
+import {Fade} from "react-awesome-reveal";
 
 type PropsType = {
     id:string
@@ -17,7 +16,7 @@ const SkillBox = (props:PropsType) => {
 
 
     return (
-        // <FontAwesomeIcon spin={props.spin} size={"5x"} icon={props.icon} color={'#dd1419'}/>
+        <Fade direction='up' duration={3500} cascade triggerOnce>
             <div className={s.skillBox}>
                 <div className={s.skillIcon}>
                     <Icon icon={props.iconName} size={props.iconSize} color='#980033'/>
@@ -25,6 +24,7 @@ const SkillBox = (props:PropsType) => {
                 <h3 className={s.skillTitle}>{props.title}</h3>
                 <span className={s.skillText}>{props.text}</span>
             </div>
+        </Fade>
     );
 };
 

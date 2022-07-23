@@ -18,7 +18,7 @@ const Projects = (props:PropsType) => {
     // }
 
     return (
-        <div className={s.projectsBlock}>
+        <div className={s.projectsBlock} id="projects">
             <div className={s.container}>
                 <div className={s.header}>
                     <h2 className={s.title}>My projects</h2>

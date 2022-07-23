@@ -3,7 +3,7 @@ import s from "./Contact.module.css";
 
 const Contact = () => {
     return (
-        <div className={s.contactBlock}>
+        <div className={s.contactBlock} id="contacts">
             <div className={s.container}>
                 <div className={s.header}>
                     <h2 className={s.title}>Contacts</h2>

@@ -10,7 +10,8 @@ type PropsType = {
 
 const Skills = (props: PropsType) => {
     return (
-        <div className={s.skillsBlock}>
+        <div className={s.skillsBlock} id="skills">
+
             <div className={s.container}>
                 <div className={s.header}>
                     <h2 className={s.title}>My skills</h2>
@@ -18,13 +19,12 @@ const Skills = (props: PropsType) => {
                 </div>
                 <div className={s.skillsRow}>
                     {props.skills.map((s) => {
-                        return <SkillBox id={s.id} title={s.title} text={s.text} iconName={s.iconName} iconSize={s.iconSize}/>
+                        return <SkillBox id={s.id} title={s.title} text={s.text} iconName={s.iconName}
+                                         iconSize={s.iconSize}/>
                     })}
-
-
-
                 </div>
             </div>
+
         </div>
     );
 };

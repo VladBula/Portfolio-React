@@ -9,9 +9,6 @@ import Contact from "./Contact/Contact";
 import Footer from "./Footer/Footer";
 import todoImg from "./assets/images/todolist.png";
 import socialNetwork from "./assets/images/social-network.png";
-import { ReactComponent as TsLogo } from './assets/images/typescript.svg';
-import { ReactComponent as ReactLogo } from './assets/images/react.svg';
-import { ReactComponent as CssLogo } from './assets/images/css3.svg';
 
 // import { faReact } from '@fortawesome/free-brands-svg-icons';
 // import { faJs } from '@fortawesome/free-brands-svg-icons';

@@ -1,33 +1,43 @@
 .nav {
-    /*border: 1px solid brown;*/
     width: 300px;
     background-color: #1f1f20;
     margin-right: 30px;
-
-
 }
 
 .menuList{
     gap: 20px;
-    color: #949494;
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-
 }
 
-.menuList li{
+/*.menuList a{*/
+/*    text-decoration: none;*/
+/*    color: #949494;*/
+/*}*/
 
-}
-
-.menuList a{
-    text-decoration: none;
-    color: #c5c5cc;
-}
+/*.menuList a:hover {*/
+/*    color: #980033;*/
+/*    cursor: pointer;*/
+/*}*/
 
 @media only screen and (min-width: 576px){
     .menu__list {
         gap: 40px;
         grid-auto-flow: column;
     }
+}
+
+.link {
+    text-decoration: none;
+    color: #949494;
+}
+
+.link:hover {
+    color: #980033;
+    cursor: pointer;
+}
+
+.activeLink {
+    color: #980033;
 }
