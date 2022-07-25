@@ -3,7 +3,6 @@
     background-color: #1f1f20;
     display: flex;
     color: #ebebf1;
-    scroll-behavior: smooth;
 }
 
 .container {
@@ -42,7 +41,5 @@
     justify-content: space-evenly;
     width: 100%;
     flex-wrap: wrap;
-
-
 }
 

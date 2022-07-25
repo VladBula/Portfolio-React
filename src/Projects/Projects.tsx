@@ -25,13 +25,9 @@ const Projects = (props:PropsType) => {
                     <div className={s.line}></div>
                 </div>
                 <div className={s.projectsRow}>
-
                     {props.projects.map((p) => {
                         return <ProjectsBox key={p.id} id={p.id} name={p.name} description={p.description} style={p.image}/>
                     })}
-
-
-
                 </div>
             </div>
         </div>
