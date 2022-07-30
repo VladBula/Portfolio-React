@@ -7,7 +7,6 @@
 .container {
     padding: 35px 0;
     min-height: 100%;
-    width: 25%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -20,19 +19,15 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width: 500px;
-    flex-wrap: wrap;
+    max-width: 600px;
+    flex-wrap: nowrap;
     padding: 20px 0;
 }
 
 .socialIcon {
-    width: 60px;
-    height: 60px;
     background: #1f1f20;
-    border: 1px solid #980033;
     border-radius: 50%;
-
-
+    display: flex;
 }
 
 .socialIcon a {
@@ -44,7 +39,7 @@
 }
 
 .socialIcon a img {
-    width: 60%;
+    padding: 5px;
 }
 
 .socialIcon:hover {

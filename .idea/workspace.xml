@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16f29463-60a6-4899-b1fc-7af5424b1172" name="Changes" comment="animation 2">
+    <list default="true" id="16f29463-60a6-4899-b1fc-7af5424b1172" name="Changes" comment="project block fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Projects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/ProjectsBox/ProjectsBox.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/ProjectsBox/ProjectsBox.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skills.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +45,8 @@
       <workItem from="1658406351032" duration="1179000" />
       <workItem from="1658423004679" duration="5164000" />
       <workItem from="1658482358329" duration="14674000" />
-      <workItem from="1658748204842" duration="1374000" />
+      <workItem from="1658748204842" duration="2221000" />
+      <workItem from="1659114389854" duration="866000" />
     </task>
     <task id="LOCAL-00001" summary="particles test">
       <created>1658336429258</created>
@@ -85,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658600060331</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="project block fix">
+      <created>1658753506671</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658753506671</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +112,7 @@
     <MESSAGE value="footer icons" />
     <MESSAGE value="animation" />
     <MESSAGE value="animation 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="animation 2" />
+    <MESSAGE value="project block fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="project block fix" />
   </component>
 </project>
