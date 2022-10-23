@@ -18,10 +18,10 @@ const Contact = () => {
     const changeMessageHandler = (e: FormEvent<HTMLTextAreaElement>) => {
         setMessage(e.currentTarget.value)
     }
-
+    console.log('contact', {name, email, message})
     const sendMessage = async () => {
             try {
-                await axios.post('https://https://smtp-node-serv.herokuapp.com//sendMessage', {name, email, message})
+                await axios.post('https://smtp-node-serv.herokuapp.com/sendMessage', {name, email, message})
             } catch (e) {
                 alert('Some error')
             }
@@ -35,9 +35,9 @@ const Contact = () => {
                     <div className={s.line}></div>
                 </div>
                 <form className={s.form}>
-                    <input type="text" placeholder="Name" onClick={changeNameHandler}/>
-                    <input type="email" placeholder="E-mail" onClick={changeEmailHandler}/>
-                    <textarea placeholder="Your message" onClick={changeMessageHandler}></textarea>
+                    <input value={name} type="text" placeholder="Name" onChange={changeNameHandler}/>
+                    <input value={email} type="email" placeholder="E-mail" onChange={changeEmailHandler}/>
+                    <textarea value={message} placeholder="Your message" onChange={changeMessageHandler}></textarea>
                 </form>
                 <div className={s.contactButton}>
                     <button type='submit' onClick={sendMessage}>Send</button>

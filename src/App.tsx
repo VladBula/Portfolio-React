@@ -10,92 +10,90 @@ import Footer from "./Footer/Footer";
 import todoImg from "./assets/images/todolist.png";
 import socialNetwork from "./assets/images/social-network.png";
 
-// import { faReact } from '@fortawesome/free-brands-svg-icons';
-// import { faJs } from '@fortawesome/free-brands-svg-icons';
-// import { faHtml5 } from '@fortawesome/free-brands-svg-icons';
-// import { faCss3 } from '@fortawesome/free-brands-svg-icons';
-// import {IconDefinition} from "@fortawesome/fontawesome-common-types";
-// import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-
-
 export type SkillsType = {
-    id:string
-    title:string
-    text:string
-    iconName:string | null
-    iconSize:number
+    id: string
+    title: string
+    text: string
+    iconName: string | null
+    iconSize: number
 };
 
 let skills = [
     {
         id: '1',
         title: 'HTML',
-        text: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of ' +
-            'classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin ' +
-            'professor at Hampden-Sydney College in Virginia, looke',
-        iconName:"html5",
-        iconSize:80
-    },{
+        text:"",
+        iconName: "html5",
+        iconSize: 80
+    }, {
         id: '2',
         title: 'CSS',
-        text: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of ' +
-            'classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin ' +
-            'professor at Hampden-Sydney College in Virginia, looke',
-        iconName:"css3",
-        iconSize:80
-    },{
+        text: "",
+        iconName: "css3",
+        iconSize: 80
+    }, {
         id: '3',
         title: 'JS',
-        text: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of ' +
-            'classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin ' +
-            'professor at Hampden-Sydney College in Virginia, looke',
-        iconName:"javascript",
-        iconSize:80
+        text: "",
+        iconName: "javascript",
+        iconSize: 80
 
-    },{
+    }, {
         id: '4',
         title: 'TS',
-        text: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of ' +
-            'classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin ' +
-            'professor at Hampden-Sydney College in Virginia, looke',
-        iconName:"typescript",
-        iconSize:80
-    },{
+        text: "",
+        iconName: "typescript",
+        iconSize: 80
+    }, {
         id: '5',
         title: 'REACT',
-        text: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of ' +
-            'classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin ' +
-            'professor at Hampden-Sydney College in Virginia, looke',
-        iconName:"react",
-        iconSize:80
+        text: "",
+        iconName: "react",
+        iconSize: 80
     },
 
 ]
 
 export type ProjectsType = {
-    id:string,
-    name:string,
-    description:string
-    image: { backgroundImage: string}
+    id: string,
+    name: string,
+    description: string
+    image: { backgroundImage: string }
+    link: string
 }
 
 let projects = [
     {
-        id:'1',
-        name:'Todolist',
-        description:'Todolist description',
-        image:{
-            backgroundImage:`url(${todoImg})`
-        }
+        id: '1',
+        name: 'Todolist',
+        description: 'SPA for managing to-do lists and their items. Implemented: add todolist / task, remove todolist / task, rename todolist / task, marking the completed task, displaying all / active / confirmed tasks in todolist.\n' +
+            'Technologies: JavaScript, TypeScript, React, Redux, Redux-thunk, React-router-dom v6, Axios, Formik, Material UI, CSS',
+        image: {
+            backgroundImage: `url(${todoImg})`
+        },
+        link: 'https://github.com/VladBula/Todolist'
 
     },
     {
-        id:'2',
-        name:'Social network',
-        description:'Social network description',
+        id: '2',
+        name: 'Social network',
+        description: 'SPA for social actions - messaging and blogging. Implemented: login page with validation, error displaying and captcha; 404 page; profile page with abilities to: view the information of the selected user, edit your profile information, change avatar, add a new post and view your published posts; dialogs page with the ability to send a message; users page and friends page with abilities to: view the list of users using pagination, subscribe and unsubscribe to any user, view any user profile.\n' +
+            'Technologies: JavaScript, TypeScript, React, Redux, Redux-thunk, React-router-dom, Axios, Formik, CSS',
         image: {
-            backgroundImage:`url(${socialNetwork})`
-        }
+            backgroundImage: `url(${socialNetwork})`
+        },
+        link: 'https://github.com/VladBula/social-network'
+
+    },
+    {
+        id: '3',
+        name: 'Cards-training',
+        description: 'SPA for learning by cards. Implemented: login page with validation; register page with validation; reset password page with validation; 404 page; profile page with abilities to: edit your profile information (change avatar and nickname), add a new card pack and edit, search, sort, view, remove and learn your card packs; packs list page with abilities to: search, sort, view and learn any card packs; learn page with abilities to answer a question and evaluate your answer.\n' +
+            'Technologies: JavaScript, TypeScript, React, Redux, Redux-thunk, React-router-dom v6, Axios, Formik, CSS, Material UI, ESLint, Prettier',
+        image: {
+            backgroundImage: `url(${socialNetwork})`
+        },
+        link: 'https://github.com/mishashmidt0/Card-training'
 
     },
     // {

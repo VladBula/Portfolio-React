@@ -7,6 +7,7 @@ type PropsType = {
     name: string,
     description: string
     style: { backgroundImage: string }
+    link: string
 }
 
 const ProjectsBox = (props: PropsType) => {
@@ -15,7 +16,7 @@ const ProjectsBox = (props: PropsType) => {
             <div className={s.projectBox}>
                 <div className={s.viewButtonContainer} style={props.style}>
 
-                    <a href="#">View</a>
+                    <a href={props.link}>View</a>
 
                 </div>
                 <div className={s.descriptionContainer}>
