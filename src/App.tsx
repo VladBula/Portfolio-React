@@ -9,6 +9,7 @@ import Contact from "./Contact/Contact";
 import Footer from "./Footer/Footer";
 import todoImg from "./assets/images/todolist.png";
 import socialNetwork from "./assets/images/social-network.png";
+import cardsTraining from "./assets/images/cards-training.png"
 
 export type SkillsType = {
     id: string
@@ -91,7 +92,7 @@ let projects = [
         description: 'SPA for learning by cards. Implemented: login page with validation; register page with validation; reset password page with validation; 404 page; profile page with abilities to: edit your profile information (change avatar and nickname), add a new card pack and edit, search, sort, view, remove and learn your card packs; packs list page with abilities to: search, sort, view and learn any card packs; learn page with abilities to answer a question and evaluate your answer.\n' +
             'Technologies: JavaScript, TypeScript, React, Redux, Redux-thunk, React-router-dom v6, Axios, Formik, CSS, Material UI, ESLint, Prettier',
         image: {
-            backgroundImage: `url(${socialNetwork})`
+            backgroundImage: `url(${cardsTraining})`
         },
         link: 'https://github.com/mishashmidt0/Card-training'
 
