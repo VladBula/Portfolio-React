@@ -8,7 +8,7 @@ const HireOffer = () => {
 
                 <h2 className={s.text}>Looking into remote work options</h2>
                 <div className={s.hireButton}>
-                    <a href="#">Hire me</a>
+                    <a href="https://www.linkedin.com/in/vladislav-bulynko-091959226/">Hire me</a>
                 </div>
 
             </div>

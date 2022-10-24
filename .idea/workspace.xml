@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16f29463-60a6-4899-b1fc-7af5424b1172" name="Changes" comment="add project">
+    <list default="true" id="16f29463-60a6-4899-b1fc-7af5424b1172" name="Changes" comment="cards-training background added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,7 @@
       <workItem from="1666254408339" duration="2249000" />
       <workItem from="1666446882718" duration="3743000" />
       <workItem from="1666539971809" duration="454000" />
+      <workItem from="1666626521095" duration="907000" />
     </task>
     <task id="LOCAL-00001" summary="particles test">
       <created>1658336429258</created>
@@ -107,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666540249623</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="cards-training background added">
+      <created>1666626645979</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666626645979</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +141,7 @@
     <MESSAGE value="project block fix" />
     <MESSAGE value="deploy heroku" />
     <MESSAGE value="add project" />
-    <option name="LAST_COMMIT_MESSAGE" value="add project" />
+    <MESSAGE value="cards-training background added" />
+    <option name="LAST_COMMIT_MESSAGE" value="cards-training background added" />
   </component>
 </project>

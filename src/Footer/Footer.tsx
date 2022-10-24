@@ -12,23 +12,13 @@ const Footer = () => {
                 <h3>Vladislav Bulynko</h3>
                 <div className={s.socialsContainer}>
                     <div className={s.socialIcon}>
-                        <a href="">
+                        <a href="https://t.me/vladBool">
                             <img src={tgIcon} alt=""/>
                         </a>
                     </div>
                     <div className={s.socialIcon}>
-                        <a href="">
+                        <a href="https://www.linkedin.com/in/vladislav-bulynko-091959226/">
                             <img src={inIcon} alt=""/>
-                        </a>
-                    </div>
-                    <div className={s.socialIcon}>
-                        <a href="">
-                            <img src={facebookIcon} alt=""/>
-                        </a>
-                    </div>
-                    <div className={s.socialIcon}>
-                        <a href="">
-                            <img src={vkIcon} alt=""/>
                         </a>
                     </div>
                 </div>
